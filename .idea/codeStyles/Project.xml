@@ -1,0 +1,16 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <HTMLCodeStyleSettings>
+      <option name="HTML_KEEP_WHITESPACES" value="true" />
+      <option name="HTML_SPACE_AROUND_EQUALITY_IN_ATTRIBUTE" value="true" />
+      <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="div,p,form,h1,h2,h3,head,body,html" />
+      <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="thead,tbody,tfoot" />
+    </HTMLCodeStyleSettings>
+    <JSCodeStyleSettings version="0">
+      <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
+    </JSCodeStyleSettings>
+    <ScalaCodeStyleSettings>
+      <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+    </ScalaCodeStyleSettings>
+  </code_scheme>
+</component>

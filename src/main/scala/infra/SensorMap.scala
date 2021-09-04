@@ -10,7 +10,7 @@ object SensorMap {
   def calculator(sensor: Sensor, value: Int) = {
     val mi = if (sensor.min > value) value else sensor.min
     val ma = if (sensor.max < value) value else sensor.max
-    val av = (sensor.avg + value) / (sensor.counter + 1)
+    val av = (sensor.avg * sensor.counter + value) / (sensor.counter + 1)
     (mi, ma, av)
   }
 
